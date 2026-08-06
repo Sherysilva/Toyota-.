@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="logo.jpg"
+         class="logo"
+         alt="Logo">
+
+    <h2>Vehicle Information</h2>
+
+    <p>Click below to view vehicle details.</p>
+
+    <a href="#popup" class="button">View Details</a>
+
+</div>
+
+<div id="popup">
+
+    <a href="#" class="close">&times;</a>
+
+    <img src="WhatsApp Image 2026-08-06 at 10.43.16.jpeg" alt="Proposal">
+
+
+<audio id="sound" src="eka-digaine.mp3"></audio></div>
+<script>
+
+document.querySelector(".button").onclick = function() {
+
+    document.getElementById("sound").play();
+
+};
+
+</script>
+</body>
+</html>
